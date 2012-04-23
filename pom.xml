@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.alterjoc</groupId>
+  <artifactId>hello-servlet-prj</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.jboss.spec.javax.ejb</groupId>
+  		<artifactId>jboss-ejb-api_3.1_spec</artifactId>
+  		<version>1.0.2.Final</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.hibernate.java-persistence</groupId>
+  		<artifactId>jpa-api</artifactId>
+  		<version>2.0-cr-1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.enterprise</groupId>
+  		<artifactId>cdi-api</artifactId>
+  		<version>1.0</version>
+  	</dependency>
+  </dependencies>
+  <packaging>war</packaging>
+</project>

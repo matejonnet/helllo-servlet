@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" -->
+
+<web-app id="WebApp_ID" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<!-- web-app xmlns="http://java.sun.com/xml/ns/javaee"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+      version="3.0"--> 
+      
+	<display-name>hello-servlet</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Hello</display-name>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>p1.Hello</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SessionTest</display-name>
+		<servlet-name>SessionTest</servlet-name>
+		<servlet-class>p1.SessionTest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AppScopeTest</display-name>
+		<servlet-name>AppScopeTest</servlet-name>
+		<servlet-class>p1.AppScopeTest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SfsbTest</display-name>
+		<servlet-name>SfsbTest</servlet-name>
+		<servlet-class>ejb.SfsbTest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>DbSelectTest</display-name>
+		<servlet-name>DbSelectTest</servlet-name>
+		<servlet-class>ejb.DbSelectTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/hello.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SessionTest</servlet-name>
+		<url-pattern>/sessionTest.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AppScopeTest</servlet-name>
+		<url-pattern>/appScopeTest.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SfsbTest</servlet-name>
+		<url-pattern>/sfsbTest.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DbSelectTest</servlet-name>
+		<url-pattern>/db-select.do</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<session-config>
+      <session-timeout>30</session-timeout> 
+   </session-config>
+	
+	<distributable/>
+	
+</web-app>
