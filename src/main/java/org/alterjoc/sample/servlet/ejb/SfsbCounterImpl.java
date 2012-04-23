@@ -1,7 +1,7 @@
 /**
  *
  */
-package org.alterjoc.sample.servlet.domain.ejb;
+package org.alterjoc.sample.servlet.ejb;
 
 
 import javax.ejb.Remove;

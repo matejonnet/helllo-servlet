@@ -14,35 +14,35 @@
 		</description>
 		<display-name>Hello</display-name>
 		<servlet-name>Hello</servlet-name>
-		<servlet-class>p1.Hello</servlet-class>
+		<servlet-class>org.alterjoc.sample.servlet.Hello</servlet-class>
 	</servlet>
 	<servlet>
 		<description>
 		</description>
 		<display-name>SessionTest</display-name>
 		<servlet-name>SessionTest</servlet-name>
-		<servlet-class>p1.SessionTest</servlet-class>
+		<servlet-class>org.alterjoc.sample.servlet.SessionTest</servlet-class>
 	</servlet>
 	<servlet>
 		<description>
 		</description>
 		<display-name>AppScopeTest</display-name>
 		<servlet-name>AppScopeTest</servlet-name>
-		<servlet-class>p1.AppScopeTest</servlet-class>
+		<servlet-class>org.alterjoc.sample.servlet.AppScopeTest</servlet-class>
 	</servlet>
 	<servlet>
 		<description>
 		</description>
 		<display-name>SfsbTest</display-name>
 		<servlet-name>SfsbTest</servlet-name>
-		<servlet-class>ejb.SfsbTest</servlet-class>
+		<servlet-class>org.alterjoc.sample.servlet.ejb.SfsbTest</servlet-class>
 	</servlet>
 	<servlet>
 		<description>
 		</description>
 		<display-name>DbSelectTest</display-name>
 		<servlet-name>DbSelectTest</servlet-name>
-		<servlet-class>ejb.DbSelectTest</servlet-class>
+		<servlet-class>org.alterjoc.sample.servlet.ejb.DbSelectTest</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Hello</servlet-name>
